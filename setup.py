@@ -1,3 +1,8 @@
+"""
+This setup.py is responsible for creating the ML application as a package.
+"""
+
+
 from setuptools import find_packages, setup
 from typing import List
 
