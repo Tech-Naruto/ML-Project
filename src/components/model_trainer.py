@@ -21,7 +21,7 @@ from src.utils import save_obj, evaluate_models
 
 @dataclass 
 class ModelTrainingConfig:
-    trained_model_file_path = os.path.join('artifacts', 'mdoel.pkl')
+    trained_model_file_path = os.path.join('artifacts', 'model.pkl')
 
 class ModelTrainer:
     def __init__(self):
